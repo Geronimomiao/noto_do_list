@@ -9,7 +9,6 @@ let config = {
 };
 let pool = mysql.createPool(config);
 let query = (sql, values) => {
-
   return new Promise((resolve, reject) => {
     pool.getConnection((err, connection) => {
       if (err) {

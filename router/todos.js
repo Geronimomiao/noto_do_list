@@ -25,11 +25,6 @@ router.post('/todo/add',
     await data.save()
 
     let datas = await Data.find({id: id});
-    let res = {
-      status: 1,
-      msg: datas,
-    }
-    ctx.body = JSON.stringify(res);
 
   },
 );
