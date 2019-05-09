@@ -21,7 +21,7 @@ module.exports = {
   },
   1007: {
     code: 1007,
-    msg: '参数格式错误'
+    msg: 'uuid错误'
   },
   1008: {
     code: 1008,
